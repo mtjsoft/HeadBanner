@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayoutroot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#312D62"
+    android:clipChildren="false"
+    android:gravity="center">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center" />
+</LinearLayout>

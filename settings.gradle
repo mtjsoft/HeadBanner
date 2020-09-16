@@ -1,0 +1,2 @@
+rootProject.name='Banner'
+include ':app'
